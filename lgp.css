@@ -1,0 +1,72 @@
+/* Large phones / Small tablets(481px - 768px) */
+
+ @media screen and (min-width: 41px) and (max-width:768px){
+  *{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+  }
+
+#hero{
+
+    background-image: url(./images/mobile/image-hero.jpg);
+    padding-bottom: 20px;
+}
+
+.logo{
+  padding: 15px;
+}
+
+#grid-container{
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.biography{
+  
+  margin-top: 20px;
+   width: 100%;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.bio-image{
+
+  width: 300px;
+  height: 300px;
+  
+
+}
+
+.img-wrapper {
+  width: 1300px;
+}
+ 
+.navbar{
+  display: block;
+  }
+ 
+  .see-all{
+    font-size: larger;
+  }
+
+  .creation{
+    font-size: x-large;
+    padding-left: 10px;
+  }
+
+
+  
+  #footer-wrapper{
+    display: block;
+  }
+
+  .footer-logo{
+    margin-left: 50px;
+  }
+  
+  .immersive{
+    text-align: center;
+  }
+ }

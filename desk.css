@@ -1,0 +1,14 @@
+/* desktop(1025px - 1440px) */
+
+@media screen and (min-width: 1025px){
+  #grid-container{
+
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .biography{
+    position: absolute;
+    left: 600px;
+    top: 500px;
+  }
+}

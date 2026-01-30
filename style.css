@@ -2,7 +2,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: arial;
 }
+
 
 #hero {
   width: 100%;
@@ -51,6 +53,12 @@
   color: back;
   height: 100%;
   display: block;
+}
+
+.bio-image{
+
+  width: 600px;
+  height: 300px;
 }
 
 .clearfix::after {
@@ -186,41 +194,49 @@
 .box-one {
   background-image: url(./images/desktop/image-deep-earth.jpg);
   background-position: contain;
+  background-repeat: no-repeat;
 }
 
 .box-two {
   background-image: url(./images/desktop/image-night-arcade.jpg);
   background-position: contain;
+  background-repeat: no-repeat;
 }
 
 .box-three {
   background-image: url(./images/desktop/image-soccer-team.jpg);
   background-position: contain;
+  background-repeat: no-repeat;
 }
 
 .box-four {
   background-image: url(./images/desktop/image-grid.jpg);
-
   background-position: contain;
+  background-repeat: no-repeat;
 }
 
 .box-five {
   background-image: url(./images/desktop/image-from-above.jpg);
   background-position: contain;
+  background-repeat: no-repeat;
 }
 
 .box-six {
   background-image: url(./images/desktop/image-pocket-borealis.jpg);
   background-position: contain;
+  background-repeat: no-repeat;
 }
 
 .box-seven {
   background-image: url(./images/desktop/image-curiosity.jpg);
   background-position: contain;
+  background-repeat: no-repeat;
 }
 
 .box-eight {
   background-image: url(./images/desktop/image-fisheye.jpg);
+  background-position: contain;
+  background-repeat: no-repeat;
 }
 
 footer {

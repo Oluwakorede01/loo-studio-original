@@ -1,0 +1,23 @@
+/* Tablets / Small Laptops(769px-1024px) */
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+  #hero{
+    background-image:url(./images/desktop/image-hero.jpg)
+  }
+
+  #grid-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .navbar{
+    width: 40%;
+  }
+
+  .biography{
+    left: 0;
+    top: auto;
+    position: relative;
+    margin-top: 40px;
+  }
+}

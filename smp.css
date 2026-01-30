@@ -1,0 +1,92 @@
+/* Small Phones (less than or equal to 480px) */
+
+@media screen and  (max-width: 480px){
+
+
+
+  #hero{
+
+      background-image: url(./images/mobile/image-hero.jpg);
+      min-height: 450px;
+  }
+
+  #hero-wrapper,
+  #firstSection,
+  #secondSection,
+  #foot-Wrapper{
+    width: 95%;
+  }
+
+  .logo,
+  .navbar{
+    float:none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar{
+    justify-content: center;
+    gap: 15px;
+    flex-wrap:wrap;
+  }
+
+  .immersive{
+    width: 100%;
+    padding: 20px;
+  }
+
+.img-wrapper{
+width: 100%;
+margin-left: 40px;
+
+}
+  .biography{
+    position: static;
+    width: 100px;
+    padding: 20px;
+  }
+
+  #grid-container{
+    grid-template-columns: 1fr;
+  }
+
+    .box-one p,
+  .box-two p,
+  .box-three p,
+  .box-four p,
+  .box-five p,
+  .box-six p,
+  .box-seven p,
+  .box-eight p{
+    bottom: 20px;
+    top: auto;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  #footer-logo-nav,
+  #icon-copyright{
+    float: none;
+    width: 100%;
+    display: block;
+  
+  }
+  
+   #footer-logo-nav{
+display: block;
+
+   }
+ 
+   .footer-logo{
+    width: 300px;
+    height: 50px;
+   }
+
+  .footer-navbar,
+  .icon{
+    justify-content:center;
+    gap: 5px;
+  }
+}
