@@ -41,6 +41,12 @@
   gap: 40px;
 }
 
+.nav:hover{
+   opacity: 0.6;
+  color: black;
+  cursor: pointer;
+}
+
 .immersive {
   width: 400px;
   padding: 40px;
@@ -279,6 +285,12 @@ footer {
   justify-content: left;
   align-items: center;
   gap: 20px;
+}
+
+.f-nav:hover{
+   opacity: 0.6;
+  color: white;
+  cursor: pointer;
 }
 
 .icon {
